@@ -51,7 +51,7 @@ class Config
 				$cur = $guide[1] == $k1? ' class="cur"': '';
 				echo sprintf('<a href="%s"%s>%s</a>', $v1['url'], $cur, $k1);
 			}
-			return;
+			return null;
 		}
 		return $menu;
 	}
